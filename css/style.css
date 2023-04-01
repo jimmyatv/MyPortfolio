@@ -26,6 +26,7 @@ body {
 
 h1, h1, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Navbar */
@@ -39,23 +40,23 @@ nav {
 .navbar-brand {
     font-size: 2rem;
     color: var(--primary);
+    transition: var(--transition);
 }
 
 .navbar-brand:hover {
     color: var(--light);
-    transition: var(--transition);
 }
 
 .nav-link {
     color: var(--light);
     text-transform: uppercase;
+    margin-right: 15px;
     letter-spacing: 1px;
+    transition: var(--transition);
 }
 
 .nav-link:hover {
     color: var(--primary);
-    transition: var(--transition);
-    
 }
 
 /* header */
@@ -75,10 +76,23 @@ header .container-fluid {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    color: var(--primary);
+    text-shadow: 1px 4px rgba(0, 0, 0, 0.2);
+    
 }
 
 header h4 {
     font-size: 1.5rem;
 }
 
+.element {
+    color: var(--light);
+    font-size: 2.5rem;
+}
+
+.developer {
+    font-size: 1.8rem;
+    color: var(--primary);
+
+}
