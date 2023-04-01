@@ -18,7 +18,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.6;
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/img/bg3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../img/bg3.jpg);
     background-position: cover;
     background-size: cover;
     background-position: fixed;
@@ -43,6 +43,10 @@ nav {
     padding: 20px 0;
     transition: .5s all;
     position: fixed;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0rem !important;
 }
 
 
@@ -72,6 +76,8 @@ nav {
     background: var(--light);
 }
 
+
+
 .stickyAdd {
     background: var(--primary);
     padding: 15px;
@@ -88,7 +94,7 @@ nav {
 
 header {
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/bg1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bg1.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
