@@ -18,7 +18,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.6;
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/img/bg2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/img/bg3.jpg);
     background-position: cover;
     background-size: cover;
     background-position: fixed;
@@ -29,6 +29,14 @@ h1, h1, h3, h4, h5, h6 {
     text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+.py-5 {
+    padding-top: 100px !important;
+}
+
+img {
+    width: 100%;
+}
+
 /* Navbar */
 
 nav {
@@ -37,26 +45,44 @@ nav {
     position: fixed;
 }
 
+
 .navbar-brand {
     font-size: 2rem;
     color: var(--primary);
     transition: var(--transition);
 }
 
-.navbar-brand:hover {
-    color: var(--light);
+.navbar-brand img {
+    width: 60px;
 }
 
 .nav-link {
-    color: var(--light);
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: var(--light);
     transition: var(--transition);
 }
 
 .nav-link:hover {
     color: var(--primary);
 }
+
+.navbar-toggler {
+    padding: 2px 7px;
+    background: var(--light);
+}
+
+.stickyAdd {
+    background: var(--primary);
+    padding: 15px;
+}
+
+.stickyAdd .nav-link:hover {
+    color: var(--dark);
+}
+
+
+
 
 /* header */
 
@@ -93,7 +119,14 @@ header h4 {
 
 }
 
-.navbar-toggler {
-    padding: 2px 7px;
-    background: var(--light);
+/* About me */
+#aboutMe a {
+    color: white;
+    font-size: 40px;
+    margin-right: 25px;
+    transition: var(--transition);
+}
+
+#aboutMe a:hover {
+    color: var(--primary);
 }

@@ -21,4 +21,15 @@ $(document).ready(function() {
         loop: true
       });
 
+
+      //? FIXED NAVBAR IN JQUERY 
+      $(window).on('scroll', function() {
+        let scroll = $(window).scrollTop();
+        if(scroll >= 100) {
+            $('.sticky').addClass('stickyAdd')
+        } else {
+            $('.sticky').removeClass('stickyAdd')
+        }
+      })
+
 });
