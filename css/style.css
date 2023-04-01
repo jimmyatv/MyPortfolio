@@ -50,7 +50,6 @@ nav {
 .nav-link {
     color: var(--light);
     text-transform: uppercase;
-    margin-right: 15px;
     letter-spacing: 1px;
     transition: var(--transition);
 }
@@ -66,14 +65,11 @@ header {
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/bg1.jpg);
     background-position: center;
     background-size: cover;
-}
-
-header .container-fluid {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
 }
+
 
 header h1 {
     font-size: 3rem;
@@ -95,4 +91,9 @@ header h4 {
     font-size: 1.8rem;
     color: var(--primary);
 
+}
+
+.navbar-toggler {
+    padding: 2px 7px;
+    background: var(--light);
 }
