@@ -1,3 +1,9 @@
+//? VANILLA JS
+
+
+
+
+
 // $('h1').hide(3000); // test jQuery !
 
 $(document).ready(function() {
@@ -27,8 +33,10 @@ $(document).ready(function() {
         let scroll = $(window).scrollTop();
         if(scroll >= 100) {
             $('.sticky').addClass('stickyAdd')
+            $('.toTop').addClass('toTopAdd')
         } else {
             $('.sticky').removeClass('stickyAdd')
+            $('.toTop').removeClass('toTopAdd')
         }
       });
 
