@@ -14,7 +14,7 @@ $(document).ready(function() {
 
       //? SMART BACKSPACE
       var typed = new Typed('.element', {
-        strings: ['make a website for you.', 'create a web application for you.', 'optimize your website.'],
+        strings: ['make a website for you.', 'create a web app for you.', 'optimize your website.'],
         typeSpeed: 60,
         backSpeed: 10,
         smartBackspace: true, // Default
@@ -30,6 +30,6 @@ $(document).ready(function() {
         } else {
             $('.sticky').removeClass('stickyAdd')
         }
-      })
+      });
 
 });
