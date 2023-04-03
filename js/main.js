@@ -40,4 +40,17 @@ $(document).ready(function() {
         }
       });
 
+      var waypoint = new Waypoint({
+        element: document.getElementById('experience'),
+        handler: function() {
+          let progress = document.querySelectorAll('.progress-bar');
+          progress[0].setAttribute('style', 'width: 90%; transition:1s all;');
+          progress[1].setAttribute('style', 'width: 95%; transition:2s all;');
+          progress[2].setAttribute('style', 'width: 80%; transition:3s all;');
+          progress[3].setAttribute('style', 'width: 70%; transition:4s all;');
+        },
+
+        offset: '90%'
+      });
+
 });

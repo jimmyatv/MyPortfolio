@@ -39,7 +39,11 @@ h6 {
 }
 
 .py-5 {
-    padding: 50px 0 !important;
+    padding: 100px 0 !important;
+}
+
+.bg-purple {
+    background: rgb(208, 49, 208);
 }
 
 img {
@@ -190,17 +194,12 @@ header h4 {
 
 .toTop i {
     color: var(--light);
-    font-size: 36px;
-}
-
-.toTop a {
-    
+    font-size: 40px;
 }
 
 .toTop i:hover {
     color: var(--primary);
     transition: var(--transition);
-    
 }
 
 /* Responsive for mobile phones */
