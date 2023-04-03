@@ -38,17 +38,16 @@ h6 {
     text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.btnn {
+.btn {
     width: 180px;
     padding: 15px 30px;
     border: 2px solid var(--light);
     border-radius: 50px;
     color: var(--light);
     transition: var(--transition);
-    text-decoration: none;
 }
 
-.btnn:hover {
+.btn:hover {
     background-color: var(--light);
     color: var(--dark);
 }
