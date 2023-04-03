@@ -6,6 +6,7 @@
 
 // $('h1').hide(3000); // test jQuery !
 
+//* jQuery
 $(document).ready(function() {
 
     //? FADEOUT EFFECT
@@ -40,6 +41,8 @@ $(document).ready(function() {
         }
       });
 
+
+    //? PROGRESS BAR
       let waypoint = new Waypoint({
         element: document.getElementById('experience'),
         handler: function() {
@@ -54,11 +57,10 @@ $(document).ready(function() {
       });
 
 
-    //   owl Caurosel
+    //? OWL CAROUSEL
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
         responsive:{
             0:{
                 items:1
@@ -70,6 +72,12 @@ $(document).ready(function() {
                 items:3
             }
         }
+    });
+
+
+    //? PORTFOLIO FILTERIZR
+    let filterizd = $('.filter-container').filterizr({
+        animationDuration: .5,
     });
 
 });

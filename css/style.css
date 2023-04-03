@@ -38,6 +38,20 @@ h6 {
     text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+.btn {
+    width: 180px;
+    padding: 15px 30px;
+    border: 2px solid var(--light);
+    border-radius: 50px;
+    color: var(--light);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
 .py-5 {
     padding: 100px 0 !important;
 }
@@ -52,10 +66,6 @@ h6 {
 
 .text-pink {
     color: #cd6799;
-}
-
-img {
-    width: 100%;
 }
 
 /* Navbar */
@@ -222,6 +232,12 @@ header h4 {
     margin-bottom: 15px;
 }
 
+/* Portfolio */
+#portfolio .alex {
+    margin-left: 4px;
+}
+
+
 /* Responsive for mobile phones */
 
 @media screen and (max-width: 576px) {
@@ -241,7 +257,29 @@ header h4 {
         margin: 20px 0;
     }
 
+    #services {
+        background-color: rgba(233, 150, 29);
+    }
+
     /* Experiance */
+    #technologies {
+        background-color: rgba(233, 150, 29);
+    }
+
+    #experience h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* Portfolio */
+    #portfolio .row .btn {
+        margin-top: 20px;
+    }
+
+    #portfolio .alex {
+        padding-right: 0 !important;
+    }
+
     
 
 }
