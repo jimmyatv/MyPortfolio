@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 
       //? SMART BACKSPACE
-      var typed = new Typed('.element', {
+      let typed = new Typed('.element', {
         strings: ['make a website for you.', 'create a web app for you.', 'optimize your website.'],
         typeSpeed: 60,
         backSpeed: 10,
@@ -40,7 +40,7 @@ $(document).ready(function() {
         }
       });
 
-      var waypoint = new Waypoint({
+      let waypoint = new Waypoint({
         element: document.getElementById('experience'),
         handler: function() {
           let progress = document.querySelectorAll('.progress-bar');
@@ -52,5 +52,24 @@ $(document).ready(function() {
 
         offset: '90%'
       });
+
+
+    //   owl Caurosel
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
 
 });
