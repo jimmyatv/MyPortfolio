@@ -67,6 +67,10 @@ h6 {
     color: #cd6799;
 }
 
+.opacity-1 {
+    opacity: 0.1;
+}
+
 /* Navbar */
 
 nav {
@@ -232,10 +236,6 @@ header h4 {
     margin-bottom: 15px;
 }
 
-/* Portfolio */
-#portfolio .alex {
-    margin-left: 4px;
-}
 
 /* Contact Us */
 #contactUs {
@@ -256,6 +256,11 @@ header h4 {
 
 #contactUs form div:nth-child(2) div i {
     font-size: 36px;    
+}
+
+/* Portfolio */
+.ourProjects {
+    margin-left: 25px;
 }
 
 
@@ -310,7 +315,7 @@ header h4 {
     }
 
 
-
+                       
     
 
 }
