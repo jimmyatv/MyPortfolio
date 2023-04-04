@@ -294,6 +294,10 @@ header h4 {
     #portfolio .alex {
         padding-right: 0 !important;
     }
+
+    .alex div button {
+        width: 40%;
+    }
     
     /* Contact Us */
 
@@ -302,8 +306,10 @@ header h4 {
     }
 
     #contactUs form div:nth-child(2) div i {
-        font-size: 30px;    
+        font-size: 30px;   
     }
+
+
 
     
 
