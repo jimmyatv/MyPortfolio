@@ -23,9 +23,8 @@ body {
     line-height: 1.6;
     font-size: 16px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bg3.jpg);
-    background-position: cover;
+    background-position: center;
     background-size: cover;
-    background-position: fixed;
 }
 
 h1,
@@ -170,7 +169,7 @@ header h4 {
 
 /* Services */
 #services {
-    background-color: rgba(233, 150, 29, .7);
+    background-color: rgba(233, 150, 29, .8);
 }
 
 #services .card {
@@ -224,7 +223,7 @@ header h4 {
 
 /* Texhnologies */
 #technologies {
-    background-color: rgba(233, 150, 29, .7);
+    background-color: rgba(233, 150, 29, .8);
 }
 
 #technologies i {
@@ -235,6 +234,27 @@ header h4 {
 /* Portfolio */
 #portfolio .alex {
     margin-left: 4px;
+}
+
+/* Contact Us */
+#contactUs {
+    background-color: rgba(233, 150, 29, .8);
+}
+
+/* Connect */
+#connect a {
+    color: white;
+    font-size: 40px;
+    margin-right: 25px;
+    transition: var(--transition);
+}
+
+#connect a:hover {
+    color: var(--primary);
+}
+
+#contactUs form div:nth-child(2) div i {
+    font-size: 36px;    
 }
 
 
@@ -257,14 +277,8 @@ header h4 {
         margin: 20px 0;
     }
 
-    #services {
-        background-color: rgba(233, 150, 29);
-    }
 
     /* Experiance */
-    #technologies {
-        background-color: rgba(233, 150, 29);
-    }
 
     #experience h2 {
         text-align: center;
@@ -278,6 +292,16 @@ header h4 {
 
     #portfolio .alex {
         padding-right: 0 !important;
+    }
+    
+    /* Contact Us */
+
+    #contactUs form div:nth-child(2) div {
+        width: 30%;
+    }
+
+    #contactUs form div:nth-child(2) div i {
+        font-size: 30px;    
     }
 
     
